@@ -1,0 +1,28 @@
+<header class="header" [class.header-small]='!bigHeader'>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="title">
+            <h4>wiekrypto<span style="color: #b6a27e">.</span>kaufen</h4>
+        </div>
+        <div class="container">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Startseite</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navx" href="#boersen">Börsen</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#anleitungen">Anleitungen</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="impressum">Impressum</a>
+                </li>
+              </ul>
+        </div>
+        <div class="hero-container text-center" *ngIf='bigHeader'>
+            <h1 class="hero-text">Wie kauft man Krypto-Währungen?</h1>
+            <br>
+            <a href="#anleitung" class="btn btn-custom" role="button" aria-pressed="true">Zur 3-Schritt Anleitung</a>
+        </div>
+      </div>
+</header>
